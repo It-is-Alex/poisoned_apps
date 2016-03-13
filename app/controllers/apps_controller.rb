@@ -5,7 +5,11 @@ class AppsController < ApplicationController
   end
 
   def new
-    @app = App.new(app_params)
+    @app = App.new
+  end
+
+  def create
+    @app = App.create(app_params)
   end
 
 
