@@ -1,5 +1,13 @@
 <div class="hero">
-  
+
 </div>
 
 <h1>Poisoned Apps</h1>
+
+<% @apps.each do |app| %>
+  <div class="app">
+    <h3><%= app.name %></h3>
+    <p><%= app.description %></p>
+  </div>
+
+<% end %>

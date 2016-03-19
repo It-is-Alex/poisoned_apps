@@ -10,6 +10,7 @@ class AppsController < ApplicationController
 
   def create
     @app = App.create(app_params)
+    redirect_to root_url
   end
 
 

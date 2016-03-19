@@ -1,5 +1,14 @@
-.hero {
+body {
+	background: url('bg.png');
+	color: #72df3e;
+}
 
+.app {
+	border: 3px;
+	background: white;
+}
+
+.hero {
 	background: url('logo.jpg') no-repeat center center;
 	background-size: cover;
 	height: 300px;
