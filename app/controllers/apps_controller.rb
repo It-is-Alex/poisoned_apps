@@ -1,4 +1,5 @@
 class AppsController < ApplicationController
+  before_action :authenticate_admin!, except: [:index]
 
   def index
     @apps = App.all
@@ -14,7 +15,7 @@ class AppsController < ApplicationController
   end
 
   def destroy
-    
+
   end
 
 
