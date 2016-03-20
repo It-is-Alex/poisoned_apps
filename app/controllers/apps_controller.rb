@@ -13,6 +13,10 @@ class AppsController < ApplicationController
     redirect_to root_url
   end
 
+  def destroy
+    
+  end
+
 
   private
 
