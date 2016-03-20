@@ -1,16 +1,29 @@
 body {
 	background: url('bg.png');
-	color: #72df3e;
+	//color: #72df3e;
+}
+
+.app-title {
+	color: black;
 }
 
 .clear {
 	clear: both;
 }
 
-.app {
+.description {
+	background-color: #8f8f8f;
+	height: auto;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: 0px 3px 4px #2a2a2a;
+}
+
+.app-box {
 	border: 3px;
 	background: white;
 	margin-bottom: 10px;
+	border-radius: 5px;
 }
 
 .hero {
