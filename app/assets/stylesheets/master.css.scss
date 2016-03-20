@@ -3,9 +3,14 @@ body {
 	color: #72df3e;
 }
 
+.clear {
+	clear: both;
+}
+
 .app {
 	border: 3px;
 	background: white;
+	margin-bottom: 10px;
 }
 
 .hero {
