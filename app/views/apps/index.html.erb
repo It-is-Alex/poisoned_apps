@@ -1,17 +1,17 @@
 <div class="hero">
+  <div class="picture">
+  </div>
 </div>
-
-<h1>Poisoned Apps</h1>
 
 <% @apps.each do |app| %>
   <div class="app-box col-xs-10 col-xs-offset-1">
     <h3 class="app-title text-center"><%= app.name %></h3>
-    <div class="screenshot col-xs-10 col-xs-offset-1">
+    <div class="screenshot col-xs-11 col-xs-offset-1 col-sm-4 col-sm-offset-1">
       <%= image_tag app.picture, class: 'img-responsive' %>
     </div>
-    <br class="clear" />
+    <div class="clearfix visible-xs"></div>
     <br  />
-    <div class="description">
+    <div class="description col-sm-7">
       <p><%= app.description %></p>
     </div>
     <br  />
