@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Teko:400,700);
+
 body {
 	//background: url('bg.png');
 	//color: #72df3e;
@@ -34,6 +36,7 @@ body {
 	margin-bottom: 10px;
 	border: 1px solid black;
 	border-radius: 5px;
+	padding-bottom: 10px;
 }
 
 .hero {
@@ -52,10 +55,13 @@ body {
 
 .navbar {
 	margin-bottom: 0px;
+	border-radius: 0px;
 }
 
 .navbar .navbar-brand {
 	color: #58f158;
+	font-family: 'Teko', sans-serif;
+	font-size: 26px;
 }
 
 .glyphicon-plus {
