@@ -26,7 +26,7 @@ gem 'jquery-rails'
 
 # Use for image uploading and storage
 gem 'carrierwave'
-gem 'rmagick', '~> 2.15'
+gem 'rmagick', '~> 2.15', require: false
 
 # Use for image manipulation with imagemagick
 gem "mini_magick", '~> 4.3.1'

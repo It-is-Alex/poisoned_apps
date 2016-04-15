@@ -29,11 +29,12 @@
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
+
           <li>
-            <%= link_to new_app_path do %>
+            <a href="#" class= "add-app-button" type="button" data-toggle="modal" data-target="#myModal">
               <span class="glyphicon glyphicon-plus"></span>
               Add App
-            <% end %>
+            </a>
 
           </li>
           <li><a href="#">Apps</a></li>
@@ -48,6 +49,8 @@
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
+
+  <%= render partial: 'addApp' %>
 
   <% if notice.present? %>
 		<p class="alert alert-info"><%= notice %></p>
